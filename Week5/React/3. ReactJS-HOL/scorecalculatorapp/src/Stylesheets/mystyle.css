@@ -1,0 +1,43 @@
+body{
+
+    background-color:#f2f2f2;
+
+}
+
+.box{
+
+    width:500px;
+
+    margin:auto;
+
+    margin-top:50px;
+
+    padding:20px;
+
+    background:white;
+
+    border:2px solid blue;
+
+    border-radius:10px;
+
+    text-align:center;
+
+}
+
+h1{
+
+    color:blue;
+
+}
+
+h2{
+
+    color:green;
+
+}
+
+h3{
+
+    color:black;
+
+}

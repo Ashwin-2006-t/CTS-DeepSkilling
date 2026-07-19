@@ -1,12 +1,19 @@
-# IntelliJ IDEA
+# IntelliJ
 .idea/
 *.iml
 
-# Maven
-target/
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
 
-# Build outputs
-out/
+# React
+build/
+coverage/
 
-# OS files
+# VS Code
+.vscode/
+
+# OS
 .DS_Store
+Thumbs.db
