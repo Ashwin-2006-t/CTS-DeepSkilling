@@ -1,11 +1,17 @@
 # IntelliJ
 .idea/
 *.iml
+
+# IntelliJ compiled output
 out/
+
+# Java compiled files
+*.class
 
 # Node
 node_modules/
 npm-debug.log*
+package-lock.json
 
 # React
 build/
