@@ -1,0 +1,11 @@
+.stats {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.stats div {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
