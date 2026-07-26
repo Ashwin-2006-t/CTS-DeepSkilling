@@ -1,25 +1,84 @@
-# IntelliJ
+# =========================
+# IntelliJ IDEA
+# =========================
 .idea/
 *.iml
 
 # IntelliJ compiled output
 out/
 
+# =========================
 # Java compiled files
+# =========================
 *.class
 
-# Node
+# =========================
+# Node / npm
+# =========================
 node_modules/
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package lock (optional - keep if your team wants same versions)
 package-lock.json
 
-# React
-build/
-coverage/
+# =========================
+# Angular Build Output
+# =========================
+dist/
+.tmp/
+.angular/
 
+# Angular cache
+.cache/
+
+# =========================
+# Testing
+# =========================
+coverage/
+*.lcov
+
+# Karma
+karma-error.log
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
 # VS Code
+# =========================
 .vscode/
 
-# OS
+# =========================
+# OS Generated Files
+# =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================
+# Angular Local Files
+# =========================
+.angular/cache/
+
+# =========================
+# JSON Server
+# =========================
+*.pid

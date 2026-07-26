@@ -1,0 +1,8 @@
+<div class="notification-panel">
+  <button type="button" (click)="addSampleMessage()">Add Notification</button>
+  <ul>
+    @for (msg of messages; track msg) {
+      <li>{{ msg }}</li>
+    }
+  </ul>
+</div>

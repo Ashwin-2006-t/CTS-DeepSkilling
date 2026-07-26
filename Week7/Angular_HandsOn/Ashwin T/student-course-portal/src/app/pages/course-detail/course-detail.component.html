@@ -1,0 +1,12 @@
+@if (course) {
+  <h2>{{ course.name }}</h2>
+  <p>Code: {{ course.code }}</p>
+  <p>Credits: {{ course.credits | creditLabel }}</p>
+  <p>Status: {{ course.gradeStatus }}</p>
+} @else if (errorMessage) {
+  <p class="error">{{ errorMessage }}</p>
+} @else {
+  <p>Loading course...</p>
+}
+
+<a routerLink="/courses">&larr; Back to Courses</a>

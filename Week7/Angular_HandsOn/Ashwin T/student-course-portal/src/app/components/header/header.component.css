@@ -1,0 +1,33 @@
+.portal-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: #1e1b4b;
+  color: white;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.portal-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.portal-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.portal-links a {
+  color: #c7d2fe;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.portal-links a.active,
+.portal-links a:hover {
+  color: white;
+  font-weight: 600;
+}

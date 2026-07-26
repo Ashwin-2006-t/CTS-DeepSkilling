@@ -1,0 +1,22 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.9rem;
+  max-width: 360px;
+}
+.checkbox-field { flex-direction: row; align-items: center; gap: 0.4rem; }
+label { font-size: 0.85rem; margin-bottom: 0.25rem; }
+input, select { padding: 0.4rem 0.5rem; }
+
+/* Angular auto-applies ng-valid/ng-invalid + ng-touched/ng-untouched
+   classes to every form control — style directly off them (HOL 4 Task 2). */
+input.ng-invalid.ng-touched {
+  border-color: #dc2626;
+}
+input.ng-valid.ng-touched {
+  border-color: #16a34a;
+}
+
+.error { color: #dc2626; font-size: 0.8rem; margin-top: 0.2rem; }
+.success { color: #16a34a; font-weight: 600; margin-top: 1rem; }
+.actions { display: flex; gap: 0.5rem; }
